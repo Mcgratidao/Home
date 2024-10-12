@@ -31,7 +31,7 @@ section {
 
 /* Rodapé */
 footer {
-    background-color: #4CAF50;
+        background-color: #191970; /* Cor de fundo do rodape */
     color: white;
     text-align: center;
     padding: 1em 0;
