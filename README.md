@@ -7,7 +7,7 @@
 
 ---
 
-✨Idade: 21 anos
+✨Idade: 21 anos:
 ✨Cargo: Assistente comercial
 ✨Paixão por tecnologia, informação e dados 
 ---
