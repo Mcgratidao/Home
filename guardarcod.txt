@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Pessoal</title>
+    <style>
+   /* Estilos gerais */
+body {
+    font-family: Arial, sans-serif; /* Define uma fonte padrão */
+    background-color: black;
+    color: white; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #191970; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+    text-align: center; /* Alinhamento centralizado */
+    padding: 1em 0; /* Espaçamento interno */
+}
+/* Estilo para as listas */
+ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0;
+}
+
+li {
+    background-color: #e7e7e7; /* Fundo cinza claro */
+    margin: 0.5em 0; /* Espaçamento entre os itens */
+    padding: 0.8em; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+/* Estilos para a tabela de cursos */
+table {
+    width: 100%; /* Faz a tabela ocupar toda a largura disponível */
+    border-collapse: collapse; /* Remove os espaços entre as bordas das células */
+    margin-top: 1em; /* Espaçamento superior */
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <br>
+	<img src="img/selfie.jpg" alt="foto apresentacao" width=30% height="90">
+    </header>
+   <div class="contêiner">
+<!--
+ 
+            <h2>Sobre Mim</h2>
+            <p>Aqui você pode escrever uma breve apresentação.</p>
+        </section>
+        <section id="cursos">
+    <h2>Cursos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Curso</th>
+                <th>Empresa Emissora</th>
+                <th>Horas</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Curso de HTML e CSS</td>
+                <td>Udemy</td>
+                <td>20 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de JavaScript</td>
+                <td>Alura</td>
+                <td>15 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de Desenvolvimento Web</td>
+                <td>Coursera</td>
+                <td>30 horas</td>
+            </tr>
+                <tr>
+                <td>Curso de HTML e CSS</td>
+                <td>Udemy</td>
+                <td>20 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de JavaScript</td>
+                <td>Alura</td>
+                <td>15 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de Desenvolvimento Web</td>
+                <td>Coursera</td>
+                <td>30 horas</td>
+            </tr>
+                <tr>
+                <td>Curso de HTML e CSS</td>
+                <td>Udemy</td>
+                <td>20 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de JavaScript</td>
+                <td>Alura</td>
+                <td>15 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de Desenvolvimento Web</td>
+                <td>Coursera</td>
+                <td>30 horas</td>
+            </tr>
+                <tr>
+                <td>Curso de HTML e CSS</td>
+                <td>Udemy</td>
+                <td>20 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de JavaScript</td>
+                <td>Alura</td>
+                <td>15 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de Desenvolvimento Web</td>
+                <td>Coursera</td>
+                <td>30 horas</td>
+            </tr>
+                <tr>
+                <td>Curso de HTML e CSS</td>
+                <td>Udemy</td>
+                <td>20 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de JavaScript</td>
+                <td>Alura</td>
+                <td>15 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de Desenvolvimento Web</td>
+                <td>Coursera</td>
+                <td>30 horas</td>
+            </tr>
+                <tr>
+                <td>Curso de HTML e CSS</td>
+                <td>Udemy</td>
+                <td>20 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de JavaScript</td>
+                <td>Alura</td>
+                <td>15 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de Desenvolvimento Web</td>
+                <td>Coursera</td>
+                <td>30 horas</td>
+            </tr>
+                <tr>
+                <td>Curso de HTML e CSS</td>
+                <td>Udemy</td>
+                <td>20 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de JavaScript</td>
+                <td>Alura</td>
+                <td>15 horas</td>
+            </tr>
+            <tr>
+                <td>Curso de Desenvolvimento Web</td>
+                <td>Coursera</td>
+                <td>30 horas</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML5 e CSS</li>
+        <li>JavaScript</li>
+        <li>Git e GitHub</li>
+        <li>Técnicas de Comunicação </li>
+        <li>Técnicas de Vendas</li>
+        <li>Automação de Processos </li>
+        <li>Perfil de Clientes</li>
+        <li>Funil de Vendas</li>
+        <li>Excel</li>
+        <li>Google Sheets & Scripts </li>
+        <li>HTML e CSS</li>
+        <li>JavaScript</li>
+        <li>Canvas</li>
+        <li>Planejamento de Processos</li>
+        <li>Bootstrap</li>
+        <li>Assistência em TI </li>
+    </ul>
+
+->
+</div>
+</body>
+</html>
