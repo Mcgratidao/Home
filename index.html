@@ -5,32 +5,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site Pessoal</title>
     <style>
-   /* Estilos gerais */
-body {
-    font-family: Arial, sans-serif; /* Define uma fonte padrão */
-    background-color: black;
-    color: white; /* Cor do texto */
-    margin: 0;
-    padding: 0;
-}
+    /* Estilos gerais */
+    body {
+        font-family: Arial, sans-serif; /* Fonte padrão */
+        background-color: black; /* Fundo escuro para contraste */
+        color: white; /* Cor do texto branco */
+        margin: 0;
+        padding: 0;
+    }
 
-/* Cabeçalho */
-header {
-    background-color: #191970; /* Cor de fundo do cabeçalho */
-    color: white; /* Cor do texto */
-    text-align: center; /* Alinhamento centralizado */
-    padding: 1em 0; /* Espaçamento interno */
-}
+    /* Cabeçalho */
+    header {
+        background-color: #191970; /* Azul escuro */
+        color: white; /* Texto branco */
+        text-align: center; /* Centralizar conteúdo */
+        padding: 2em 0; /* Espaçamento interno */
+        position: relative;
+    }
 
+    /* Estilizando a imagem */
+    img {
+        border-radius: 50%; /* Deixa a imagem circular */
+        width: 200px; /* Tamanho da imagem */
+        height: 200px;
+        object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorcer */
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.8), 0 0 50px rgba(255, 255, 255, 0.6); /* Efeito de borda brilhante */
+        transition: box-shadow 0.3s ease-in-out; /* Transição suave ao passar o mouse */
+    }
+
+    /* Efeito hover (passar o mouse por cima) */
+    img:hover {
+        box-shadow: 0 0 30px rgba(255, 255, 255, 1), 0 0 60px rgba(255, 255, 255, 0.9); /* Borda mais brilhante ao passar o mouse */
+    }
+
+    /* Container para manter alinhamento */
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2em 0;
+    }
 
     </style>
 </head>
 <body>
     <header>
-	<img src="img/selfie.jpg" alt="foto apresentacao" width=30% height="90">
+        <img src="img/selfie.jpg" alt="Foto de Apresentação">
     </header>
-   <div class="contêiner">
 
-</div>
+    <div class="container">
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Esse é um espaço para compartilhar minha jornada, projetos e ideias. Fique à vontade!</p>
+    </div>
 </body>
 </html>
